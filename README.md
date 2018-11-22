@@ -1,6 +1,7 @@
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ajax_logo.svg" alt="Ajax logo.svg" height="145" width="174">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ajax_logo.svg" 
+height="145" width="174">
 
 
 <h3> <em>1ère Partie</em> </h3>
