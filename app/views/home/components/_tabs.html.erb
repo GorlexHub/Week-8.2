@@ -46,9 +46,24 @@
         $('#message1').hide();
    
     });
-    
+
 </script>
 
+<script>
+
+    $("#delete1").click(function(){
+    $("#message1").remove();
+    $("#hideshow").remove();
+});
+       $("#delete2").click(function(){
+    $("#message2").remove();
+    $("#hideshow1").remove();
+});
+       $("#delete3").click(function(){
+    $("#message3").remove();
+    $("#hideshow2").remove();
+});
+</script>
 
 <table id="example" class="display" style="width:100%">
 
@@ -63,18 +78,20 @@
                 <th> ____ </th>
             </tr>
         </thead>
+        <div id="monmessage1">
         <tbody>
             <tr>
-
+                
                 <td> <a href="#" id="hideshow">Ne pas ouvrir cet e-mail</a></td>
 
                 <td id="message1">
                                   <em><strong>Objet: </em></strong>Ne pas ouvrir cet e-mail</li></br>
-                                  <em><strong>Contenu: </em></strong>Trop tard...</br></br><button class="btn btn-danger">Supprimer</button></td></li>
+                                  <em><strong>Contenu: </em></strong>Trop tard...</br></br><a id="delete1" class="btn btn-danger">Supprimer</a></td></li>
                                   
-
+           
                                   
             </tr>
+                 </div>
         </tbody>
         <tbody>
             <tr>
@@ -82,7 +99,7 @@
 
                 <td id="message2">
                                   <em><strong>Objet:  </em></strong>Dernier jour pour voir de quoi traite cet email mystère</br>
-                                  <em><strong>Contenu: </em></strong>Contenu içi </br></br> <button class="btn btn-danger">Supprimer</button></td></li>
+                                  <em><strong>Contenu: </em></strong>Contenu içi </br></br> <button id="delete2"class="btn btn-danger">Supprimer</button></td></li>
             </tr>
         </tbody>
         <tbody>
@@ -91,7 +108,7 @@
 
                 <td id="message3" >
                                   <em><strong>Objet:  </em></strong> habitudes bizarres qui enrichissent les Millennials</br>
-                                  <em><strong>Contenu: </em></strong>Contenu du dernier </br></br> <button class="btn btn-danger">Supprimer</button></td></li>
+                                  <em><strong>Contenu: </em></strong>Contenu du dernier </br></br> <button id="delete3" class="btn btn-danger">Supprimer</button></td></li>
             </tr>
         </tbody>
 
