@@ -1,6 +1,8 @@
 
 
-<h1>Ajax.</h1>
+<a href="https://commons.wikimedia.org/wiki/File:Ajax_logo.svg#/media/File:Ajax_logo.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ajax_logo.svg" alt="Ajax logo.svg" height="145" width="174"></a>
+
+
 <h3> <em>1ère Partie</em> </h3>
 <ul>
   <li>Modèles <em><strong>email</em></strong> et <em><strong>body</em></strong> avec attribut</a></li>
@@ -20,7 +22,7 @@
 <ul>
 <li>Un Mail non lu est <em><strong>bleu</em></strong> et devient <em><strong>gris</em></strong> après consultation.  </li>
 </ul>
-<p><em>Ce projet est disponible à l’adresse suivante:</em> <a href="https://jquerystyle.herokuapp.com/"><em>Heroku</em></a></p>
+<p><em>Ce projet est disponible à l’adresse suivante:</em> <a href="https://ajaxio.herokuapp.com/"><em>Heroku</em></a></p>
 <p><em>En cas d’erreur <strong>Heroku</strong>, voici la marche à suivre:</em></p>
 <ol>
 <li>git clone <a href="https://github.com/GorlexHub/Week-8.2.git">https://github.com/Varuamana/TodolistAPP.git</a></li>
