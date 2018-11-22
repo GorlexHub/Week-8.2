@@ -1,24 +1,25 @@
 
 
 <h1>Ajax.</h1>
-<h3> 1. </h3>
-<ol>
+<h3> <em>1ère Partie</em> </h3>
+<ul>
   <li>Modèles <em><strong>email</em></strong> et <em><strong>body</em></strong> avec attribut</a></li>
   <li>Colonne <em><strong>Liste</em></strong></a></li>
   <li>Root, Controllers et View </a></li>
-</ol>
+</ul>
 
 <h3> 2. </h3>
-<ol>
+<ul>
 <li>Colonne <em><strong>Liste</em></strong></li>
-</ol>
+</ul>
 <h3> 3. </h3>
-<ol>
+<ul>
 <li>Colonne <em><strong>Contenu</em></strong> avec affichage de <em><strong>l'objet</em></strong>, <em><strong>corps</em></strong> et <em><strong>lien</em></strong> lors du clic</li>
-</ol>
+</ul>
 <h3> 4. </h3>
+<ul>
 <li>Un Mail non lu est <em><strong>bleu</em><strong> et devient <em><strong>gris</em></strong> après consultation.  <</li>
-</ol>
+</ul>
 <p><em>Ce projet est disponible à l’adresse suivante:</em> <a href="https://jquerystyle.herokuapp.com/"><em>Heroku</em></a></p>
 <p><em>En cas d’erreur <strong>Heroku</strong>, voici la marche à suivre:</em></p>
 <ol>
