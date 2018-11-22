@@ -8,15 +8,15 @@
   <li>Root, Controllers et View </a></li>
 </ul>
 
-<h3> 2. </h3>
+<h3> <em>2ème Partie</em> </h3>
 <ul>
 <li>Colonne <em><strong>Liste</em></strong></li>
 </ul>
-<h3> 3. </h3>
+<h3> <em>3ème Partie</em> </h3>
 <ul>
 <li>Colonne <em><strong>Contenu</em></strong> avec affichage de <em><strong>l'objet</em></strong>, <em><strong>corps</em></strong> et <em><strong>lien</em></strong> lors du clic</li>
 </ul>
-<h3> 4. </h3>
+<h3> <em>4ème Partie</em> </h3>
 <ul>
 <li>Un Mail non lu est <em><strong>bleu</em><strong> et devient <em><strong>gris</em></strong> après consultation.  <</li>
 </ul>
