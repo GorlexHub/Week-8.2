@@ -6,7 +6,7 @@ height="145" width="174">
 
 <h3> <em>1ère Partie</em> </h3>
 <ul>
-  <li>Modèles <em><strong>email</em></strong> et <em><strong>body</em></strong> avec attribut &#x2713;/a></li>
+  <li>Modèles <em><strong>email</em></strong> et <em><strong>body</em></strong> avec attribut &#x2713;</a></li>
   <li>Colonne <em><strong>Liste</em></strong>	&#x2713;</a></li>
   <li>Root, Controllers et View </a>	&#x2713;</li>
 </ul>
