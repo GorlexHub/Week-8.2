@@ -1,0 +1,100 @@
+<script>
+
+    $('#hideshow').toggle(function() {
+        $('#hideshow').text('Ne pas ouvrir cet e-mail');
+        $('#message1').hide();
+    }, 
+
+        function() {
+        $('#hideshow').text('Ne pas ouvrir cet e-mail');
+        $('#message1').show();
+        $('#message2').hide();
+        $('#message3').hide();
+   
+    });
+    
+</script>
+
+<script>
+    
+    $('#hideshow1').toggle(function() {
+        $('#hideshow1').text('Dernier jour pour voir de quoi traite cet email mystère');
+        $('#message2').hide();
+
+ }, 
+        function() {
+        $('#hideshow1').text('Dernier jour pour voir de quoi traite cet email mystère');
+        $('#message2').show();
+        $('#message1').hide();
+        $('#message3').hide();
+   
+    });
+    
+</script>
+
+<script>
+    
+    $('#hideshow2').toggle(function() {
+        $('#hideshow2').text('10 habitudes bizarres qui enrichissent les Millennials');
+        $('#message3').hide();
+  }, 
+
+        function() {
+        $('#hideshow2').text('10 habitudes bizarres qui enrichissent les Millennials');
+        $('#message3').show();
+        $('#message2').hide();
+        $('#message1').hide();
+   
+    });
+    
+</script>
+
+
+<table id="example" class="display" style="width:100%">
+
+
+        <thead>
+            <tr>
+                <th>Objet</th>
+                <th>Contenu</th>
+            </tr>
+            <tr>
+                <th> ____</th>
+                <th> ____ </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td> <a href="#" id="hideshow">Ne pas ouvrir cet e-mail</a></td>
+
+                <td id="message1">
+                                  <em><strong>Objet: </em></strong>Ne pas ouvrir cet e-mail</li></br>
+                                  <em><strong>Contenu: </em></strong>Trop tard...</br></br><button class="btn btn-danger">Supprimer</button></td></li>
+                                  
+
+                                  
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><a href="#" id="hideshow1">Dernier jour pour voir de quoi traite cet email mystère</a></td>
+
+                <td id="message2">
+                                  <em><strong>Objet:  </em></strong>Dernier jour pour voir de quoi traite cet email mystère</br>
+                                  <em><strong>Contenu: </em></strong>Contenu içi </br></br> <button class="btn btn-danger">Supprimer</button></td></li>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><a href="#" id="hideshow2">10 habitudes bizarres qui enrichissent les Millennials</a></td>
+
+                <td id="message3" >
+                                  <em><strong>Objet:  </em></strong> habitudes bizarres qui enrichissent les Millennials</br>
+                                  <em><strong>Contenu: </em></strong>Contenu du dernier </br></br> <button class="btn btn-danger">Supprimer</button></td></li>
+            </tr>
+        </tbody>
+
+
+
+

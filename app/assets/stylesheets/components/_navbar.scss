@@ -1,0 +1,48 @@
+.dropdown ul
+{
+	padding: 0;
+	border: none;
+	background: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #ccc;
+	transform-origin: top;
+	transform: perspective(1000px) rotateX(-90deg);
+	transition: 0.5s;
+}
+
+.dropdown ul li a
+{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background: #262626;
+	color: #fff;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+
+}
+
+.dropdown ul li a:hover 
+{
+	background:#0d7ad0
+}
+
+.dropdown ul.active
+{
+	transform: perspective(1000px) rotateX(0deg);
+}
+
+.dropdown ul li
+{
+	list-style: none;
+}
+
+.dropdown button
+{
+padding: 0;
+border: none;
+background: none;
+}
