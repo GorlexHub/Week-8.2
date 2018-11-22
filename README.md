@@ -26,7 +26,7 @@ height="145" width="174">
 <p><em>Ce projet est disponible à l’adresse suivante:</em> <a href="https://ajaxio.herokuapp.com/"><em>Heroku</em></a></p>
 <p><em>En cas d’erreur <strong>Heroku</strong>, voici la marche à suivre:</em></p>
 <ol>
-<li>git clone <a href="https://github.com/GorlexHub/Week-8.2.git"https://github.com/GorlexHub/Week-8.2.git</a></li>
+<li>git clone https://github.com/GorlexHub/Week-8.2.git</li>
 <li>bundle install</li>
 <li>rails db:create</li>
 <li>rails db:seed</li>
