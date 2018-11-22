@@ -112,23 +112,24 @@
         transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
     }
 
-#m1 {
-
-text-align: center;
-display:none
-}
-
-#m2 {
-
-text-align: center;
-display:none
-}
-
-body {
-	font-family: "Open Sans";
-	background:url(""); 
-
- }
+#m1, #m2 {
+    display   : none;
+    position  : fixed;
+    top       : 50%;
+    left      : 50%;
+    transform : translate(-50%,-50%);
+    background: #fff;
+    width     : 320px;
+    height    : 320px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    z-index   : 99;
+    
+    &.visible {
+      display: block;
+    }
+  }
 
 #b3 {
 	width:35px;
@@ -258,20 +259,16 @@ h1 {
   * END Slider
   * */
 
-#message1 {
+#message1, #message2, #message3 {
 
 text-align: center;
 display:none
+
 }
 
-#message2 {
+#hideshow:visited, #hideshow1:visited, #hideshow2:visited,  { 
 
-text-align: center;
-display:none
+color: #AAA
+
 }
 
-#message3 {
-
-text-align: center;
-display:none
-}

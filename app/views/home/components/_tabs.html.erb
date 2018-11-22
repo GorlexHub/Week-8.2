@@ -1,12 +1,12 @@
 <script>
 
     $('#hideshow').toggle(function() {
-        $('#hideshow').text('Ne pas ouvrir cet e-mail');
+        $('#hideshow').text('Blague n°1');
         $('#message1').hide();
     }, 
 
         function() {
-        $('#hideshow').text('Ne pas ouvrir cet e-mail');
+        $('#hideshow').text('Blague n°1');
         $('#message1').show();
         $('#message2').hide();
         $('#message3').hide();
@@ -18,12 +18,12 @@
 <script>
     
     $('#hideshow1').toggle(function() {
-        $('#hideshow1').text('Dernier jour pour voir de quoi traite cet email mystère');
+        $('#hideshow1').text('Blague n°2');
         $('#message2').hide();
 
  }, 
         function() {
-        $('#hideshow1').text('Dernier jour pour voir de quoi traite cet email mystère');
+        $('#hideshow1').text('Blague n°2');
         $('#message2').show();
         $('#message1').hide();
         $('#message3').hide();
@@ -35,12 +35,12 @@
 <script>
     
     $('#hideshow2').toggle(function() {
-        $('#hideshow2').text('10 habitudes bizarres qui enrichissent les Millennials');
+        $('#hideshow2').text('Blague n°3');
         $('#message3').hide();
   }, 
 
         function() {
-        $('#hideshow2').text('10 habitudes bizarres qui enrichissent les Millennials');
+        $('#hideshow2').text('Blague n°3');
         $('#message3').show();
         $('#message2').hide();
         $('#message1').hide();
@@ -51,7 +51,7 @@
 
 <script>
 
-    $("#delete1").click(function(){
+       $("#delete1").click(function(){
     $("#message1").remove();
     $("#hideshow").remove();
 });
@@ -64,6 +64,8 @@
     $("#hideshow2").remove();
 });
 </script>
+
+
 
 <table id="example" class="display" style="width:100%">
 
@@ -82,11 +84,12 @@
         <tbody>
             <tr>
                 
-                <td> <a href="#" id="hideshow">Ne pas ouvrir cet e-mail</a></td>
+                <td> <a href="#" id="hideshow"><br>Blague n°1</br></a></td>
 
                 <td id="message1">
-                                  <em><strong>Objet: </em></strong>Ne pas ouvrir cet e-mail</li></br>
-                                  <em><strong>Contenu: </em></strong>Trop tard...</br></br><a id="delete1" class="btn btn-danger">Supprimer</a></td></li>
+                                  <em><strong>Objet: </em></strong>Blague n°1</li></br>
+                                  <em><strong>Contenu: </em></strong>"- I hate this cheese with the holes in it.
+- Then eat around them."</br></br><a id="delete1" class="btn btn-danger">Supprimer</a></td></li>
                                   
            
                                   
@@ -95,22 +98,26 @@
         </tbody>
         <tbody>
             <tr>
-                <td><a href="#" id="hideshow1">Dernier jour pour voir de quoi traite cet email mystère</a></td>
+                <td><a href="#" id="hideshow1">Blague n°2</a></td>
 
                 <td id="message2">
-                                  <em><strong>Objet:  </em></strong>Dernier jour pour voir de quoi traite cet email mystère</br>
-                                  <em><strong>Contenu: </em></strong>Contenu içi </br></br> <button id="delete2"class="btn btn-danger">Supprimer</button></td></li>
+                                  <em><strong>Objet:  </em></strong>Blague n°2</br>
+                                  <em><strong>Contenu: </em></strong>"- I'm so broke, if a robber was to rob me, all he'd get would be practice." </br></br> <button id="delete2"class="btn btn-danger">Supprimer</button></td></li>
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td><a href="#" id="hideshow2">10 habitudes bizarres qui enrichissent les Millennials</a></td>
+                <td><a href="#" id="hideshow2">Blague n°3</a></td>
 
                 <td id="message3" >
-                                  <em><strong>Objet:  </em></strong> habitudes bizarres qui enrichissent les Millennials</br>
-                                  <em><strong>Contenu: </em></strong>Contenu du dernier </br></br> <button id="delete3" class="btn btn-danger">Supprimer</button></td></li>
+                                  <em><strong>Objet:  </em></strong>Blague n°3</br>
+                                  <em><strong>Contenu: </em></strong>"- What was your mother's name before she was married?
+- I didn't have a mother before she was married."</br></br> <button id="delete3" class="btn btn-danger">Supprimer</button></td></li>
             </tr>
-        </tbody>
+      
+
+        
+
 
 
 

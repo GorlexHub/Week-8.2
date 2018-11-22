@@ -9,9 +9,24 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<%= render "layouts/js" %>
+
   </head>
 
   <body>
+   
+<%= render "layouts/m1" %>
+<%= render "devise/shared/links" %>
+</div>
+</div>
+
+<%= render "layouts/m2" %>
+
+</div>
+</div>
+</div>
+</div>
     <%= render 'layouts/navbar'  %>
     <%= render 'layouts/flash'  %>
     <%= yield %>
