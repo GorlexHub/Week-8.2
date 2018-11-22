@@ -18,7 +18,7 @@
 </ul>
 <h3> <em>4ème Partie</em> </h3>
 <ul>
-<li>Un Mail non lu est <em><strong>bleu</em><strong> et devient <em><strong>gris</em></strong> après consultation.  <</li>
+<li>Un Mail non lu est <em><strong>bleu</em></strong> et devient <em><strong>gris</em></strong> après consultation.  <</li>
 </ul>
 <p><em>Ce projet est disponible à l’adresse suivante:</em> <a href="https://jquerystyle.herokuapp.com/"><em>Heroku</em></a></p>
 <p><em>En cas d’erreur <strong>Heroku</strong>, voici la marche à suivre:</em></p>
